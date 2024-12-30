@@ -1,0 +1,1252 @@
+﻿<Package IgnorableNamespaces="appv appv1.1 appv1.2" appv:IgnorableNamespaces="appv1.1 appv1.2" xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:appv="http://schemas.microsoft.com/appv/2010/manifest" xmlns:appv1.1="http://schemas.microsoft.com/appv/2013/manifest" xmlns:appv1.2="http://schemas.microsoft.com/appv/2014/manifest">
+  <Identity Name="Reserved" Publisher="CN=Reserved" Version="16.0.18227.20162" appv:PackageId="90160000-00A1-0000-0000-0000000FF1CE" appv:VersionId="d553c56a-f811-4425-adb9-0a037fca1df3" />
+  <Properties>
+    <DisplayName>Microsoft Office 15</DisplayName>
+    <PublisherDisplayName>Reserved</PublisherDisplayName>
+    <Description>Reserved</Description>
+    <Logo>Reserved.jpeg</Logo>
+    <appv:AppVPackageDescription>No description entered</appv:AppVPackageDescription>
+    <appv:AppVInProcExt>true</appv:AppVInProcExt>
+  </Properties>
+  <Resources>
+    <Resource Language="en-us" />
+  </Resources>
+  <Prerequisites>
+    <OSMinVersion>6.2</OSMinVersion>
+    <OSMaxVersionTested>6.2</OSMaxVersionTested>
+    <appv:TargetOSes SequencingStationProcessorArchitecture="x86" />
+  </Prerequisites>
+  <appv:Extensions>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:FileExtension>
+          <appv:Name>.docm</appv:Name>
+        </appv:FileExtension>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:FileExtension>
+          <appv:Name>.docx</appv:Name>
+        </appv:FileExtension>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:FileExtension>
+          <appv:Name>.dotx</appv:Name>
+        </appv:FileExtension>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:FileExtension>
+          <appv:Name>.msg</appv:Name>
+        </appv:FileExtension>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:FileExtension>
+          <appv:Name>.odp</appv:Name>
+        </appv:FileExtension>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:FileExtension>
+          <appv:Name>.ods</appv:Name>
+        </appv:FileExtension>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:FileExtension>
+          <appv:Name>.odt</appv:Name>
+        </appv:FileExtension>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:FileExtension MimeAssociation="true">
+          <appv:Name>.one</appv:Name>
+          <appv:ProgId>OneNote.Section.1</appv:ProgId>
+          <appv:ContentType>application/msonenote</appv:ContentType>
+        </appv:FileExtension>
+        <appv:ProgId>
+          <appv:Name>OneNote.Section.1</appv:Name>
+          <appv:Description>Microsoft OneNote Section</appv:Description>
+          <appv:FriendlyTypeName>@[{ProgramFilesCommonX64}]\Microsoft Shared\Office16\oregres.dll,-140</appv:FriendlyTypeName>
+          <appv:DefaultIcon>[{Windows}]\Installer\{90160000-000F-0000-0000-0000000FF1CE}\joticon.exe,1</appv:DefaultIcon>
+          <appv:ShellCommands>
+            <appv:DefaultCommand>Open</appv:DefaultCommand>
+            <appv:ShellCommand>
+              <appv:ApplicationId>OneNote</appv:ApplicationId>
+              <appv:Name>Edit</appv:Name>
+              <appv:FriendlyName>@[{ProgramFilesCommonX86}]\Microsoft Shared\Office16\oregres.dll,-1</appv:FriendlyName>
+              <appv:CommandLine>"[{AppVPackageRoot}]\Office16\ONENOTE.EXE" "%1"</appv:CommandLine>
+            </appv:ShellCommand>
+            <appv:ShellCommand>
+              <appv:ApplicationId>OneNote</appv:ApplicationId>
+              <appv:Name>New</appv:Name>
+              <appv:FriendlyName>@[{ProgramFilesCommonX86}]\Microsoft Shared\Office16\oregres.dll,-2</appv:FriendlyName>
+              <appv:CommandLine>"[{AppVPackageRoot}]\Office16\ONENOTE.EXE" /new "%1"</appv:CommandLine>
+            </appv:ShellCommand>
+            <appv:ShellCommand>
+              <appv:ApplicationId>OneNote</appv:ApplicationId>
+              <appv:Name>Open</appv:Name>
+              <appv:FriendlyName>@[{ProgramFilesCommonX86}]\Microsoft Shared\Office16\oregres.dll,-3</appv:FriendlyName>
+              <appv:CommandLine>"[{AppVPackageRoot}]\Office16\ONENOTE.EXE" "%1"</appv:CommandLine>
+            </appv:ShellCommand>
+            <appv:ShellCommand>
+              <appv:ApplicationId>OneNote</appv:ApplicationId>
+              <appv:Name>OpenAsReadOnly</appv:Name>
+              <appv:FriendlyName>@[{ProgramFilesCommonX86}]\Microsoft Shared\Office16\oregres.dll,-3</appv:FriendlyName>
+              <appv:CommandLine>"[{AppVPackageRoot}]\Office16\ONENOTE.EXE" "%1"</appv:CommandLine>
+              <appv:Extended>true</appv:Extended>
+            </appv:ShellCommand>
+            <appv:ShellCommand>
+              <appv:ApplicationId>OneNote</appv:ApplicationId>
+              <appv:Name>Print</appv:Name>
+              <appv:FriendlyName>@[{ProgramFilesCommonX86}]\Microsoft Shared\Office16\oregres.dll,-5</appv:FriendlyName>
+              <appv:CommandLine>"[{AppVPackageRoot}]\Office16\ONENOTE.EXE" /print "%1"</appv:CommandLine>
+            </appv:ShellCommand>
+          </appv:ShellCommands>
+        </appv:ProgId>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:FileExtension>
+          <appv:Name>.onepkg</appv:Name>
+          <appv:ProgId>OneNote.Package</appv:ProgId>
+          <appv:ContentType>application/msonenote</appv:ContentType>
+        </appv:FileExtension>
+        <appv:ProgId>
+          <appv:Name>OneNote.Package</appv:Name>
+          <appv:Description>Microsoft OneNote Single File Package</appv:Description>
+          <appv:FriendlyTypeName>@[{ProgramFilesCommonX64}]\Microsoft Shared\Office16\oregres.dll,-141</appv:FriendlyTypeName>
+          <appv:DefaultIcon>[{Windows}]\Installer\{90160000-000F-0000-0000-0000000FF1CE}\joticon.exe,2</appv:DefaultIcon>
+          <appv:ShellCommands>
+            <appv:DefaultCommand>Open</appv:DefaultCommand>
+            <appv:ShellCommand>
+              <appv:ApplicationId>OneNote</appv:ApplicationId>
+              <appv:Name>Open</appv:Name>
+              <appv:FriendlyName>@[{ProgramFilesCommonX86}]\Microsoft Shared\Office16\oregres.dll,-3</appv:FriendlyName>
+              <appv:CommandLine>"[{AppVPackageRoot}]\Office16\ONENOTE.EXE" "%1"</appv:CommandLine>
+            </appv:ShellCommand>
+          </appv:ShellCommands>
+        </appv:ProgId>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:FileExtension>
+          <appv:Name>.onetoc</appv:Name>
+          <appv:ProgId>OneNote.TableOfContents</appv:ProgId>
+        </appv:FileExtension>
+        <appv:ProgId>
+          <appv:Name>OneNote.TableOfContents</appv:Name>
+          <appv:Description>Microsoft OneNote 2003 Table Of Contents</appv:Description>
+          <appv:FriendlyTypeName>@[{ProgramFilesCommonX64}]\Microsoft Shared\Office16\oregres.dll,-143</appv:FriendlyTypeName>
+          <appv:DefaultIcon>[{Windows}]\Installer\{90160000-000F-0000-0000-0000000FF1CE}\joticon.exe,3</appv:DefaultIcon>
+          <appv:ShellCommands>
+            <appv:DefaultCommand />
+            <appv:ShellCommand>
+              <appv:ApplicationId>OneNote</appv:ApplicationId>
+              <appv:Name>Open</appv:Name>
+              <appv:FriendlyName>@[{ProgramFilesCommonX86}]\Microsoft Shared\Office16\oregres.dll,-3</appv:FriendlyName>
+              <appv:CommandLine>"[{AppVPackageRoot}]\Office16\ONENOTE.EXE" /navigate "%1"</appv:CommandLine>
+            </appv:ShellCommand>
+          </appv:ShellCommands>
+        </appv:ProgId>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:FileExtension>
+          <appv:Name>.onetoc2</appv:Name>
+          <appv:ProgId>OneNote.TableOfContents.12</appv:ProgId>
+        </appv:FileExtension>
+        <appv:ProgId>
+          <appv:Name>OneNote.TableOfContents.12</appv:Name>
+          <appv:Description>Microsoft OneNote Table Of Contents</appv:Description>
+          <appv:FriendlyTypeName>@[{ProgramFilesCommonX64}]\Microsoft Shared\Office16\oregres.dll,-142</appv:FriendlyTypeName>
+          <appv:DefaultIcon>[{Windows}]\Installer\{90160000-000F-0000-0000-0000000FF1CE}\joticon.exe,3</appv:DefaultIcon>
+          <appv:ShellCommands>
+            <appv:DefaultCommand />
+            <appv:ShellCommand>
+              <appv:ApplicationId>OneNote</appv:ApplicationId>
+              <appv:Name>Open</appv:Name>
+              <appv:FriendlyName>@[{ProgramFilesCommonX86}]\Microsoft Shared\Office16\oregres.dll,-3</appv:FriendlyName>
+              <appv:CommandLine>"[{AppVPackageRoot}]\Office16\ONENOTE.EXE" /navigate "%1"</appv:CommandLine>
+            </appv:ShellCommand>
+          </appv:ShellCommands>
+        </appv:ProgId>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:FileExtension>
+          <appv:Name>.pptm</appv:Name>
+        </appv:FileExtension>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:FileExtension>
+          <appv:Name>.pptx</appv:Name>
+        </appv:FileExtension>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:FileExtension>
+          <appv:Name>.xlsb</appv:Name>
+        </appv:FileExtension>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:FileExtension>
+          <appv:Name>.xlsm</appv:Name>
+        </appv:FileExtension>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:FileExtension>
+          <appv:Name>.xlsx</appv:Name>
+        </appv:FileExtension>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:FileExtension>
+          <appv:Name>.zip</appv:Name>
+        </appv:FileExtension>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:ProgId>
+          <appv:Name>OneNote.Folder</appv:Name>
+          <appv:Description>Microsoft OneNote Notebook</appv:Description>
+          <appv:CurrentVersionProgId>OneNote.Folder.1</appv:CurrentVersionProgId>
+        </appv:ProgId>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:ProgId>
+          <appv:Name>OneNote</appv:Name>
+          <appv:Description>URL:OneNote Protocol</appv:Description>
+          <appv:FriendlyTypeName>@[{ProgramFilesCommonX64}]\Microsoft Shared\Office16\oregres.dll,-144</appv:FriendlyTypeName>
+          <appv:ShellCommands>
+            <appv:ShellCommand>
+              <appv:ApplicationId>OneNote</appv:ApplicationId>
+              <appv:Name>Open</appv:Name>
+              <appv:CommandLine>"[{AppVPackageRoot}]\Office16\ONENOTE.EXE" /hyperlink "%1"</appv:CommandLine>
+            </appv:ShellCommand>
+          </appv:ShellCommands>
+        </appv:ProgId>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:ProgId>
+          <appv:Name>OneIndex.ShellFolder</appv:Name>
+          <appv:Description>Microsoft OneNote Namespace Extension for Windows Desktop Search</appv:Description>
+          <appv:CurrentVersionProgId>OneIndex.ShellFolder.1</appv:CurrentVersionProgId>
+        </appv:ProgId>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:ProgId>
+          <appv:Name>OneNote.Notebook</appv:Name>
+          <appv:Description>Microsoft OneNote Notebook</appv:Description>
+          <appv:CurrentVersionProgId>OneNote.Notebook.1</appv:CurrentVersionProgId>
+        </appv:ProgId>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:ProgId>
+          <appv:Name>OneNote.Folder.1</appv:Name>
+          <appv:Description>Microsoft OneNote Notebook</appv:Description>
+          <appv:DefaultIcon>[{Windows}]\Installer\{90160000-000F-0000-0000-0000000FF1CE}\joticon.exe,3</appv:DefaultIcon>
+          <appv:ShellCommands>
+            <appv:DefaultCommand>Open</appv:DefaultCommand>
+            <appv:ShellCommand>
+              <appv:ApplicationId>OneNote</appv:ApplicationId>
+              <appv:Name>Edit</appv:Name>
+              <appv:FriendlyName>@[{ProgramFilesCommonX64}]\Microsoft Shared\Office16\oregres.dll,-1</appv:FriendlyName>
+              <appv:CommandLine>"[{AppVPackageRoot}]\Office16\ONENOTE.EXE" "%1"</appv:CommandLine>
+            </appv:ShellCommand>
+            <appv:ShellCommand>
+              <appv:ApplicationId>OneNote</appv:ApplicationId>
+              <appv:Name>Open</appv:Name>
+              <appv:FriendlyName>@[{ProgramFilesCommonX64}]\Microsoft Shared\Office16\oregres.dll,-3</appv:FriendlyName>
+              <appv:CommandLine>"[{AppVPackageRoot}]\Office16\ONENOTE.EXE" "%1"</appv:CommandLine>
+            </appv:ShellCommand>
+            <appv:ShellCommand>
+              <appv:ApplicationId>OneNote</appv:ApplicationId>
+              <appv:Name>OpenAsReadOnly</appv:Name>
+              <appv:FriendlyName>Open</appv:FriendlyName>
+              <appv:CommandLine>"[{AppVPackageRoot}]\Office16\ONENOTE.EXE" "%1"</appv:CommandLine>
+            </appv:ShellCommand>
+          </appv:ShellCommands>
+        </appv:ProgId>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:ProgId>
+          <appv:Name>onenote-cmd</appv:Name>
+          <appv:Description>URL:OneNote Protocol</appv:Description>
+          <appv:FriendlyTypeName>@[{ProgramFilesCommonX64}]\Microsoft Shared\Office16\oregres.dll,-144</appv:FriendlyTypeName>
+          <appv:ShellCommands>
+            <appv:ShellCommand>
+              <appv:ApplicationId>OneNote</appv:ApplicationId>
+              <appv:Name>Open</appv:Name>
+              <appv:CommandLine>"[{AppVPackageRoot}]\Office16\ONENOTE.EXE" "%1"</appv:CommandLine>
+            </appv:ShellCommand>
+          </appv:ShellCommands>
+        </appv:ProgId>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:ProgId>
+          <appv:Name>onenote-cmd.URL.16</appv:Name>
+          <appv:Description>URL:OneNote Protocol</appv:Description>
+          <appv:ShellCommands>
+            <appv:ShellCommand>
+              <appv:ApplicationId>OneNote</appv:ApplicationId>
+              <appv:Name>Open</appv:Name>
+              <appv:CommandLine>"[{AppVPackageRoot}]\Office16\ONENOTE.EXE" "%1"</appv:CommandLine>
+            </appv:ShellCommand>
+          </appv:ShellCommands>
+        </appv:ProgId>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:ProgId>
+          <appv:Name>OneNote.CFileConverter</appv:Name>
+          <appv:Description>CFileConverter Class</appv:Description>
+          <appv:CurrentVersionProgId>OneNote.CFileConverter.1</appv:CurrentVersionProgId>
+        </appv:ProgId>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:ProgId>
+          <appv:Name>OneNote.Application</appv:Name>
+          <appv:Description>Application Class</appv:Description>
+          <appv:CurrentVersionProgId>OneNote.Application.15</appv:CurrentVersionProgId>
+        </appv:ProgId>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:ProgId>
+          <appv:Name>OneNote.NoteAnchor</appv:Name>
+          <appv:Description>OneNote NoteAnchor Class</appv:Description>
+          <appv:CurrentVersionProgId>OneNote.NoteAnchor.14</appv:CurrentVersionProgId>
+        </appv:ProgId>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:ProgId>
+          <appv:Name>OneNote.OutlookAddin</appv:Name>
+          <appv:Description>OneNote Notes about Outlook Items</appv:Description>
+          <appv:CurrentVersionProgId>OneNote.OutlookAddin.16</appv:CurrentVersionProgId>
+        </appv:ProgId>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:ProgId>
+          <appv:Name>OneNote.NoteAnchorCollection</appv:Name>
+          <appv:Description>OneNote NoteAnchorCollection Class</appv:Description>
+          <appv:CurrentVersionProgId>OneNote.NoteAnchorCollection.14</appv:CurrentVersionProgId>
+        </appv:ProgId>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:ProgId>
+          <appv:Name>OneNote.Notebook.1</appv:Name>
+          <appv:Description>Microsoft OneNote Notebook</appv:Description>
+          <appv:DefaultIcon>[{Windows}]\Installer\{90160000-000F-0000-0000-0000000FF1CE}\joticon.exe,3</appv:DefaultIcon>
+          <appv:ShellCommands>
+            <appv:DefaultCommand>Open</appv:DefaultCommand>
+            <appv:ShellCommand>
+              <appv:ApplicationId>OneNote</appv:ApplicationId>
+              <appv:Name>Edit</appv:Name>
+              <appv:FriendlyName>@[{ProgramFilesCommonX64}]\Microsoft Shared\Office16\oregres.dll,-1</appv:FriendlyName>
+              <appv:CommandLine>"[{AppVPackageRoot}]\Office16\ONENOTE.EXE" "%1"</appv:CommandLine>
+            </appv:ShellCommand>
+            <appv:ShellCommand>
+              <appv:ApplicationId>OneNote</appv:ApplicationId>
+              <appv:Name>Open</appv:Name>
+              <appv:FriendlyName>@[{ProgramFilesCommonX64}]\Microsoft Shared\Office16\oregres.dll,-3</appv:FriendlyName>
+              <appv:CommandLine>"[{AppVPackageRoot}]\Office16\ONENOTE.EXE" "%1"</appv:CommandLine>
+            </appv:ShellCommand>
+            <appv:ShellCommand>
+              <appv:ApplicationId>OneNote</appv:ApplicationId>
+              <appv:Name>OpenAsReadOnly</appv:Name>
+              <appv:FriendlyName>Open</appv:FriendlyName>
+              <appv:CommandLine>"[{AppVPackageRoot}]\Office16\ONENOTE.EXE" "%1"</appv:CommandLine>
+            </appv:ShellCommand>
+          </appv:ShellCommands>
+        </appv:ProgId>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:ProgId>
+          <appv:Name>OneNoteDesktop</appv:Name>
+          <appv:Description>URL:OneNote Protocol</appv:Description>
+          <appv:FriendlyTypeName>@[{ProgramFilesCommonX64}]\Microsoft Shared\Office16\oregres.dll,-144</appv:FriendlyTypeName>
+          <appv:ShellCommands>
+            <appv:ShellCommand>
+              <appv:ApplicationId>OneNote</appv:ApplicationId>
+              <appv:Name>Open</appv:Name>
+              <appv:CommandLine>"[{AppVPackageRoot}]\Office16\ONENOTE.EXE" /hyperlink "%1"</appv:CommandLine>
+            </appv:ShellCommand>
+          </appv:ShellCommands>
+        </appv:ProgId>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:ProgId>
+          <appv:Name>OneNote.NoteLinkContentService</appv:Name>
+          <appv:Description>OneNote NoteLinkContentService Class</appv:Description>
+          <appv:CurrentVersionProgId>OneNote.NoteLinkContentService.14</appv:CurrentVersionProgId>
+        </appv:ProgId>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:ProgId>
+          <appv:Name>OneNote.NoteLinkMeta</appv:Name>
+          <appv:Description>OneNote NoteLinkMeta Class</appv:Description>
+          <appv:CurrentVersionProgId>OneNote.NoteLinkMeta.14</appv:CurrentVersionProgId>
+        </appv:ProgId>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:ProgId>
+          <appv:Name>OneNote.NoteLinkStoreService</appv:Name>
+          <appv:Description>OneNote NoteLinkStoreService Class</appv:Description>
+          <appv:CurrentVersionProgId>OneNote.NoteLinkStoreService.14</appv:CurrentVersionProgId>
+        </appv:ProgId>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:ProgId>
+          <appv:Name>OneNote.PowerPointAddinTakeNotesButton</appv:Name>
+          <appv:Description>OneNote PowerPoint Add-In Take Notes Button Class</appv:Description>
+          <appv:CurrentVersionProgId>OneNote.PowerPointAddinTakeNotesButton.16</appv:CurrentVersionProgId>
+        </appv:ProgId>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:ProgId>
+          <appv:Name>OneNote.PowerPointAddinTakeNotesService</appv:Name>
+          <appv:Description>OneNote PowerPoint Add-In Take Notes Content Service Class</appv:Description>
+          <appv:CurrentVersionProgId>OneNote.PowerPointAddinTakeNotesService.16</appv:CurrentVersionProgId>
+        </appv:ProgId>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:ProgId>
+          <appv:Name>OneNote.Section</appv:Name>
+          <appv:Description>Microsoft OneNote Section</appv:Description>
+          <appv:CurrentVersionProgId>OneNote.Section.1</appv:CurrentVersionProgId>
+        </appv:ProgId>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:ProgId>
+          <appv:Name>OneNote.WordAddinTakeNotesService</appv:Name>
+          <appv:Description>OneNote Word Add-In Take Notes Content Service Class</appv:Description>
+          <appv:CurrentVersionProgId>OneNote.WordAddinTakeNotesService.16</appv:CurrentVersionProgId>
+        </appv:ProgId>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:ProgId>
+          <appv:Name>OneNote.URL.16</appv:Name>
+          <appv:Description>URL:OneNote Protocol</appv:Description>
+          <appv:ShellCommands>
+            <appv:ShellCommand>
+              <appv:ApplicationId>OneNote</appv:ApplicationId>
+              <appv:Name>Open</appv:Name>
+              <appv:CommandLine>"[{AppVPackageRoot}]\Office16\ONENOTE.EXE" /hyperlink "%1"</appv:CommandLine>
+            </appv:ShellCommand>
+          </appv:ShellCommands>
+        </appv:ProgId>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:ProgId>
+          <appv:Name>OneNote.WordAddinTakeNotesButton</appv:Name>
+          <appv:Description>OneNote Word Add-In Take Notes Button Class</appv:Description>
+          <appv:CurrentVersionProgId>OneNote.WordAddinTakeNotesButton.16</appv:CurrentVersionProgId>
+        </appv:ProgId>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:ProgId>
+          <appv:Name>OneNoteDesktop.URL.16</appv:Name>
+          <appv:Description>URL:OneNote Protocol</appv:Description>
+          <appv:ShellCommands>
+            <appv:ShellCommand>
+              <appv:ApplicationId>OneNote</appv:ApplicationId>
+              <appv:Name>Open</appv:Name>
+              <appv:CommandLine>"[{AppVPackageRoot}]\Office16\ONENOTE.EXE" /hyperlink "%1"</appv:CommandLine>
+            </appv:ShellCommand>
+          </appv:ShellCommands>
+        </appv:ProgId>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.FileTypeAssociation">
+      <appv:FileTypeAssociation>
+        <appv:ProgId>
+          <appv:Name>Search.OneIndexHandler</appv:Name>
+          <appv:Description>Microsoft OneNote Windows Desktop Search Protocol Handler</appv:Description>
+          <appv:CurrentVersionProgId>Search.OneIndexHandler.2</appv:CurrentVersionProgId>
+        </appv:ProgId>
+      </appv:FileTypeAssociation>
+    </appv:Extension>
+    <appv:Extension Category="AppV.AppPath">
+      <appv:AppPath>
+        <appv:Name>OneNote.exe</appv:Name>
+        <appv:ApplicationPath>[{AppVPackageRoot}]\Office16\ONENOTE.EXE</appv:ApplicationPath>
+        <appv:PATHEnvironmentVariablePrefix>[{AppVPackageRoot}]\Office16\</appv:PATHEnvironmentVariablePrefix>
+        <appv:SaveUrl>1</appv:SaveUrl>
+        <appv:ApplicationId>OneNote</appv:ApplicationId>
+        <appv:CanAcceptUrl>1</appv:CanAcceptUrl>
+      </appv:AppPath>
+    </appv:Extension>
+    <appv:Extension Category="AppV.COM">
+      <appv:COM>
+        <appv:x86>
+          <appv:Class>
+            <appv:ClassId>{0039FFEC-A022-4232-8274-6B34787BFC27}</appv:ClassId>
+            <appv:Name>Application Class</appv:Name>
+            <appv:ProgId>OneNote.Application.12</appv:ProgId>
+            <appv:TypeLibraryId>{F2A7EE29-8BF6-4a6d-83F1-098E366C709C}</appv:TypeLibraryId>
+            <appv:LocalServer>
+              <appv:CommandLine>[{AppVPackageRoot}]\Office16\ONENOTE.EXE</appv:CommandLine>
+            </appv:LocalServer>
+          </appv:Class>
+        </appv:x86>
+        <appv:ProgIds>
+          <appv:ProgId>
+            <appv:Name>OneNote.Application.12</appv:Name>
+            <appv:Description>Application Class</appv:Description>
+            <appv:ClassId>{0039FFEC-A022-4232-8274-6B34787BFC27}</appv:ClassId>
+          </appv:ProgId>
+        </appv:ProgIds>
+        <appv:TypeLibraries>
+          <appv:TypeLibrary>
+            <appv:TypeLibraryId>{F2A7EE29-8BF6-4a6d-83F1-098E366C709C}</appv:TypeLibraryId>
+            <appv:Versions>
+              <appv:Version>
+                <appv:VersionNumber>1.0</appv:VersionNumber>
+                <appv:Name>Microsoft OneNote 12.0 Type Library</appv:Name>
+                <appv:Flags>0</appv:Flags>
+                <appv:HelpDirectory />
+                <appv:Libraries>
+                  <appv:Library>
+                    <appv:Index>0</appv:Index>
+                    <appv:Win32>[{AppVPackageRoot}]\Office16\ONENOTE.EXE\2</appv:Win32>
+                  </appv:Library>
+                </appv:Libraries>
+              </appv:Version>
+            </appv:Versions>
+          </appv:TypeLibrary>
+        </appv:TypeLibraries>
+        <appv:ApplicationId>OneNote</appv:ApplicationId>
+      </appv:COM>
+    </appv:Extension>
+    <appv:Extension Category="AppV.COM">
+      <appv:COM>
+        <appv:x86>
+          <appv:Class>
+            <appv:ClassId>{40B783AC-9C9E-4F73-A1C3-E767FC211B2C}</appv:ClassId>
+            <appv:Name>Microsoft OneNote Notebook</appv:Name>
+            <appv:ProgId>OneNote.Folder.1</appv:ProgId>
+            <appv:VersionIndependentProgId>OneNote.Folder</appv:VersionIndependentProgId>
+            <appv:LocalServer>
+              <appv:CommandLine>[{AppVPackageRoot}]\Office16\ONENOTE.EXE</appv:CommandLine>
+            </appv:LocalServer>
+          </appv:Class>
+        </appv:x86>
+        <appv:ProgIds>
+          <appv:ProgId>
+            <appv:Name>OneNote.Folder</appv:Name>
+            <appv:Description>Microsoft OneNote Notebook</appv:Description>
+            <appv:ClassId>{40B783AC-9C9E-4F73-A1C3-E767FC211B2C}</appv:ClassId>
+            <appv:CurrentVersionProgId>OneNote.Folder.1</appv:CurrentVersionProgId>
+          </appv:ProgId>
+          <appv:ProgId>
+            <appv:Name>OneNote.Folder.1</appv:Name>
+            <appv:Description>Microsoft OneNote Notebook</appv:Description>
+            <appv:ClassId>{40B783AC-9C9E-4F73-A1C3-E767FC211B2C}</appv:ClassId>
+          </appv:ProgId>
+        </appv:ProgIds>
+        <appv:ApplicationId>OneNote</appv:ApplicationId>
+      </appv:COM>
+    </appv:Extension>
+    <appv:Extension Category="AppV.COM">
+      <appv:COM>
+        <appv:x86>
+          <appv:Class>
+            <appv:ClassId>{9F4C80DC-A4F1-420C-A0FA-1E1490AA8853}</appv:ClassId>
+            <appv:Name>Microsoft OneNote Notebook</appv:Name>
+            <appv:ProgId>OneNote.Notebook.1</appv:ProgId>
+            <appv:VersionIndependentProgId>OneNote.Notebook</appv:VersionIndependentProgId>
+            <appv:LocalServer>
+              <appv:CommandLine>[{AppVPackageRoot}]\Office16\ONENOTE.EXE</appv:CommandLine>
+            </appv:LocalServer>
+          </appv:Class>
+        </appv:x86>
+        <appv:ProgIds>
+          <appv:ProgId>
+            <appv:Name>OneNote.Notebook</appv:Name>
+            <appv:Description>Microsoft OneNote Notebook</appv:Description>
+            <appv:ClassId>{9F4C80DC-A4F1-420C-A0FA-1E1490AA8853}</appv:ClassId>
+            <appv:CurrentVersionProgId>OneNote.Notebook.1</appv:CurrentVersionProgId>
+          </appv:ProgId>
+          <appv:ProgId>
+            <appv:Name>OneNote.Notebook.1</appv:Name>
+            <appv:Description>Microsoft OneNote Notebook</appv:Description>
+            <appv:ClassId>{9F4C80DC-A4F1-420C-A0FA-1E1490AA8853}</appv:ClassId>
+          </appv:ProgId>
+        </appv:ProgIds>
+        <appv:ApplicationId>OneNote</appv:ApplicationId>
+      </appv:COM>
+    </appv:Extension>
+    <appv:Extension Category="AppV.COM">
+      <appv:COM>
+        <appv:x86>
+          <appv:Class>
+            <appv:ClassId>{D7FAC39E-7FF1-49AA-98CF-A1DDD316337E}</appv:ClassId>
+            <appv:Name>Application Class</appv:Name>
+            <appv:ProgId>OneNote.Application.14</appv:ProgId>
+            <appv:TypeLibraryId>{0EA692EE-BB50-4E3C-AEF0-356D91732725}</appv:TypeLibraryId>
+            <appv:LocalServer>
+              <appv:CommandLine>[{AppVPackageRoot}]\Office16\ONENOTE.EXE</appv:CommandLine>
+            </appv:LocalServer>
+          </appv:Class>
+        </appv:x86>
+        <appv:ProgIds>
+          <appv:ProgId>
+            <appv:Name>OneNote.Application.14</appv:Name>
+            <appv:Description>Application Class</appv:Description>
+            <appv:ClassId>{D7FAC39E-7FF1-49AA-98CF-A1DDD316337E}</appv:ClassId>
+          </appv:ProgId>
+        </appv:ProgIds>
+        <appv:TypeLibraries>
+          <appv:TypeLibrary>
+            <appv:TypeLibraryId>{0EA692EE-BB50-4E3C-AEF0-356D91732725}</appv:TypeLibraryId>
+            <appv:Versions>
+              <appv:Version>
+                <appv:VersionNumber>1.1</appv:VersionNumber>
+                <appv:Name>Microsoft OneNote 15.0 Type Library</appv:Name>
+                <appv:Flags>0</appv:Flags>
+                <appv:HelpDirectory />
+                <appv:Libraries>
+                  <appv:Library>
+                    <appv:Index>0</appv:Index>
+                    <appv:Win32>[{AppVPackageRoot}]\Office16\ONENOTE.EXE\3</appv:Win32>
+                  </appv:Library>
+                </appv:Libraries>
+              </appv:Version>
+            </appv:Versions>
+          </appv:TypeLibrary>
+        </appv:TypeLibraries>
+        <appv:ApplicationId>OneNote</appv:ApplicationId>
+      </appv:COM>
+    </appv:Extension>
+    <appv:Extension Category="AppV.COM">
+      <appv:COM>
+        <appv:x86>
+          <appv:Class>
+            <appv:ClassId>{DC67E480-C3CB-49F8-8232-60B0C2056C8E}</appv:ClassId>
+            <appv:Name>Application2 Class</appv:Name>
+            <appv:ProgId>OneNote.Application.15</appv:ProgId>
+            <appv:VersionIndependentProgId>OneNote.Application</appv:VersionIndependentProgId>
+            <appv:TypeLibraryId>{0EA692EE-BB50-4E3C-AEF0-356D91732725}</appv:TypeLibraryId>
+            <appv:LocalServer>
+              <appv:CommandLine>[{AppVPackageRoot}]\Office16\ONENOTE.EXE</appv:CommandLine>
+            </appv:LocalServer>
+          </appv:Class>
+        </appv:x86>
+        <appv:ProgIds>
+          <appv:ProgId>
+            <appv:Name>OneNote.Application</appv:Name>
+            <appv:Description>Application Class</appv:Description>
+            <appv:ClassId>{DC67E480-C3CB-49F8-8232-60B0C2056C8E}</appv:ClassId>
+            <appv:CurrentVersionProgId>OneNote.Application.15</appv:CurrentVersionProgId>
+          </appv:ProgId>
+          <appv:ProgId>
+            <appv:Name>OneNote.Application.15</appv:Name>
+            <appv:Description>Application2 Class</appv:Description>
+            <appv:ClassId>{DC67E480-C3CB-49F8-8232-60B0C2056C8E}</appv:ClassId>
+          </appv:ProgId>
+        </appv:ProgIds>
+        <appv:TypeLibraries>
+          <appv:TypeLibrary>
+            <appv:TypeLibraryId>{0EA692EE-BB50-4E3C-AEF0-356D91732725}</appv:TypeLibraryId>
+            <appv:Versions>
+              <appv:Version>
+                <appv:VersionNumber>1.1</appv:VersionNumber>
+                <appv:Name>Microsoft OneNote 15.0 Type Library</appv:Name>
+                <appv:Flags>0</appv:Flags>
+                <appv:HelpDirectory />
+                <appv:Libraries>
+                  <appv:Library>
+                    <appv:Index>0</appv:Index>
+                    <appv:Win32>[{AppVPackageRoot}]\Office16\ONENOTE.EXE\3</appv:Win32>
+                  </appv:Library>
+                </appv:Libraries>
+              </appv:Version>
+            </appv:Versions>
+          </appv:TypeLibrary>
+        </appv:TypeLibraries>
+        <appv:ApplicationId>OneNote</appv:ApplicationId>
+      </appv:COM>
+    </appv:Extension>
+    <appv:Extension Category="AppV.COM">
+      <appv:COM>
+        <appv:x86>
+          <appv:Class>
+            <appv:ClassId>{E81752ED-2885-4624-AE89-5A28DB58874B}</appv:ClassId>
+            <appv:Name>CMimeHandler Class</appv:Name>
+            <appv:LocalServer>
+              <appv:CommandLine>[{AppVPackageRoot}]\Office16\ONENOTE.EXE</appv:CommandLine>
+            </appv:LocalServer>
+          </appv:Class>
+        </appv:x86>
+        <appv:ApplicationId>OneNote</appv:ApplicationId>
+      </appv:COM>
+    </appv:Extension>
+    <appv:Extension Category="AppV.COM">
+      <appv:COM>
+        <appv:x86>
+          <appv:Interfaces>
+            <appv:Interface>
+              <appv:InterfaceId>{1D12BD3F-89B6-4077-AA2C-C9DC2BCA42F9}</appv:InterfaceId>
+              <appv:Description>IQuickFilingDialog</appv:Description>
+              <appv:ProxyStubClassId>{00020424-0000-0000-C000-000000000046}</appv:ProxyStubClassId>
+              <appv:TypeLibrary>
+                <appv:TypeLibraryId>{0EA692EE-BB50-4E3C-AEF0-356D91732725}</appv:TypeLibraryId>
+                <appv:VersionNumber>1.1</appv:VersionNumber>
+              </appv:TypeLibrary>
+            </appv:Interface>
+          </appv:Interfaces>
+        </appv:x86>
+        <appv:TypeLibraries>
+          <appv:TypeLibrary>
+            <appv:TypeLibraryId>{0EA692EE-BB50-4E3C-AEF0-356D91732725}</appv:TypeLibraryId>
+            <appv:Versions>
+              <appv:Version>
+                <appv:VersionNumber>1.1</appv:VersionNumber>
+                <appv:Name>Microsoft OneNote 15.0 Type Library</appv:Name>
+                <appv:Flags>0</appv:Flags>
+                <appv:HelpDirectory />
+                <appv:Libraries>
+                  <appv:Library>
+                    <appv:Index>0</appv:Index>
+                    <appv:Win32>[{AppVPackageRoot}]\Office16\ONENOTE.EXE\3</appv:Win32>
+                  </appv:Library>
+                </appv:Libraries>
+              </appv:Version>
+            </appv:Versions>
+          </appv:TypeLibrary>
+        </appv:TypeLibraries>
+        <appv:ApplicationId>OneNote</appv:ApplicationId>
+      </appv:COM>
+    </appv:Extension>
+    <appv:Extension Category="AppV.COM">
+      <appv:COM>
+        <appv:x86>
+          <appv:Interfaces>
+            <appv:Interface>
+              <appv:InterfaceId>{2DA16203-3F58-404F-839D-E4CDE7DD0DED}</appv:InterfaceId>
+              <appv:Description>IApplication</appv:Description>
+              <appv:ProxyStubClassId>{00020424-0000-0000-C000-000000000046}</appv:ProxyStubClassId>
+              <appv:TypeLibrary>
+                <appv:TypeLibraryId>{F2A7EE29-8BF6-4A6D-83F1-098E366C709C}</appv:TypeLibraryId>
+                <appv:VersionNumber>1.0</appv:VersionNumber>
+              </appv:TypeLibrary>
+            </appv:Interface>
+          </appv:Interfaces>
+        </appv:x86>
+        <appv:ApplicationId>OneNote</appv:ApplicationId>
+      </appv:COM>
+    </appv:Extension>
+    <appv:Extension Category="AppV.COM">
+      <appv:COM>
+        <appv:x86>
+          <appv:Interfaces>
+            <appv:Interface>
+              <appv:InterfaceId>{452AC71A-B655-4967-A208-A4CC39DD7949}</appv:InterfaceId>
+              <appv:Description>IApplication</appv:Description>
+              <appv:ProxyStubClassId>{00020424-0000-0000-C000-000000000046}</appv:ProxyStubClassId>
+              <appv:TypeLibrary>
+                <appv:TypeLibraryId>{0EA692EE-BB50-4E3C-AEF0-356D91732725}</appv:TypeLibraryId>
+                <appv:VersionNumber>1.1</appv:VersionNumber>
+              </appv:TypeLibrary>
+            </appv:Interface>
+          </appv:Interfaces>
+        </appv:x86>
+        <appv:TypeLibraries>
+          <appv:TypeLibrary>
+            <appv:TypeLibraryId>{0EA692EE-BB50-4E3C-AEF0-356D91732725}</appv:TypeLibraryId>
+            <appv:Versions>
+              <appv:Version>
+                <appv:VersionNumber>1.1</appv:VersionNumber>
+                <appv:Name>Microsoft OneNote 15.0 Type Library</appv:Name>
+                <appv:Flags>0</appv:Flags>
+                <appv:HelpDirectory />
+                <appv:Libraries>
+                  <appv:Library>
+                    <appv:Index>0</appv:Index>
+                    <appv:Win32>[{AppVPackageRoot}]\Office16\ONENOTE.EXE\3</appv:Win32>
+                  </appv:Library>
+                </appv:Libraries>
+              </appv:Version>
+            </appv:Versions>
+          </appv:TypeLibrary>
+        </appv:TypeLibraries>
+        <appv:ApplicationId>OneNote</appv:ApplicationId>
+      </appv:COM>
+    </appv:Extension>
+    <appv:Extension Category="AppV.COM">
+      <appv:COM>
+        <appv:x86>
+          <appv:Interfaces>
+            <appv:Interface>
+              <appv:InterfaceId>{627EA7B4-95B5-4980-84C1-9D20DA4460B1}</appv:InterfaceId>
+              <appv:Description>IQuickFilingDialogCallback</appv:Description>
+              <appv:ProxyStubClassId>{00020424-0000-0000-C000-000000000046}</appv:ProxyStubClassId>
+              <appv:TypeLibrary>
+                <appv:TypeLibraryId>{0EA692EE-BB50-4E3C-AEF0-356D91732725}</appv:TypeLibraryId>
+                <appv:VersionNumber>1.1</appv:VersionNumber>
+              </appv:TypeLibrary>
+            </appv:Interface>
+          </appv:Interfaces>
+        </appv:x86>
+        <appv:TypeLibraries>
+          <appv:TypeLibrary>
+            <appv:TypeLibraryId>{0EA692EE-BB50-4E3C-AEF0-356D91732725}</appv:TypeLibraryId>
+            <appv:Versions>
+              <appv:Version>
+                <appv:VersionNumber>1.1</appv:VersionNumber>
+                <appv:Name>Microsoft OneNote 15.0 Type Library</appv:Name>
+                <appv:Flags>0</appv:Flags>
+                <appv:HelpDirectory />
+                <appv:Libraries>
+                  <appv:Library>
+                    <appv:Index>0</appv:Index>
+                    <appv:Win32>[{AppVPackageRoot}]\Office16\ONENOTE.EXE\3</appv:Win32>
+                  </appv:Library>
+                </appv:Libraries>
+              </appv:Version>
+            </appv:Versions>
+          </appv:TypeLibrary>
+        </appv:TypeLibraries>
+        <appv:ApplicationId>OneNote</appv:ApplicationId>
+      </appv:COM>
+    </appv:Extension>
+    <appv:Extension Category="AppV.COM">
+      <appv:COM>
+        <appv:x86>
+          <appv:Interfaces>
+            <appv:Interface>
+              <appv:InterfaceId>{6D4B9C3E-CC05-493F-85E2-43D1006DF96A}</appv:InterfaceId>
+              <appv:Description>Windows</appv:Description>
+              <appv:ProxyStubClassId>{00020424-0000-0000-C000-000000000046}</appv:ProxyStubClassId>
+              <appv:TypeLibrary>
+                <appv:TypeLibraryId>{0EA692EE-BB50-4E3C-AEF0-356D91732725}</appv:TypeLibraryId>
+                <appv:VersionNumber>1.1</appv:VersionNumber>
+              </appv:TypeLibrary>
+            </appv:Interface>
+          </appv:Interfaces>
+        </appv:x86>
+        <appv:TypeLibraries>
+          <appv:TypeLibrary>
+            <appv:TypeLibraryId>{0EA692EE-BB50-4E3C-AEF0-356D91732725}</appv:TypeLibraryId>
+            <appv:Versions>
+              <appv:Version>
+                <appv:VersionNumber>1.1</appv:VersionNumber>
+                <appv:Name>Microsoft OneNote 15.0 Type Library</appv:Name>
+                <appv:Flags>0</appv:Flags>
+                <appv:HelpDirectory />
+                <appv:Libraries>
+                  <appv:Library>
+                    <appv:Index>0</appv:Index>
+                    <appv:Win32>[{AppVPackageRoot}]\Office16\ONENOTE.EXE\3</appv:Win32>
+                  </appv:Library>
+                </appv:Libraries>
+              </appv:Version>
+            </appv:Versions>
+          </appv:TypeLibrary>
+        </appv:TypeLibraries>
+        <appv:ApplicationId>OneNote</appv:ApplicationId>
+      </appv:COM>
+    </appv:Extension>
+    <appv:Extension Category="AppV.COM">
+      <appv:COM>
+        <appv:x86>
+          <appv:Interfaces>
+            <appv:Interface>
+              <appv:InterfaceId>{7D6B8796-D75D-4348-A445-6DDE811AF9AC}</appv:InterfaceId>
+              <appv:Description>IOneNoteCacheSyncCallback</appv:Description>
+              <appv:ProxyStubClassId>{00020424-0000-0000-C000-000000000046}</appv:ProxyStubClassId>
+              <appv:TypeLibrary>
+                <appv:TypeLibraryId>{0EA692EE-BB50-4E3C-AEF0-356D91732725}</appv:TypeLibraryId>
+                <appv:VersionNumber>1.1</appv:VersionNumber>
+              </appv:TypeLibrary>
+            </appv:Interface>
+          </appv:Interfaces>
+        </appv:x86>
+        <appv:TypeLibraries>
+          <appv:TypeLibrary>
+            <appv:TypeLibraryId>{0EA692EE-BB50-4E3C-AEF0-356D91732725}</appv:TypeLibraryId>
+            <appv:Versions>
+              <appv:Version>
+                <appv:VersionNumber>1.1</appv:VersionNumber>
+                <appv:Name>Microsoft OneNote 15.0 Type Library</appv:Name>
+                <appv:Flags>0</appv:Flags>
+                <appv:HelpDirectory />
+                <appv:Libraries>
+                  <appv:Library>
+                    <appv:Index>0</appv:Index>
+                    <appv:Win32>[{AppVPackageRoot}]\Office16\ONENOTE.EXE\3</appv:Win32>
+                  </appv:Library>
+                </appv:Libraries>
+              </appv:Version>
+            </appv:Versions>
+          </appv:TypeLibrary>
+        </appv:TypeLibraries>
+        <appv:ApplicationId>OneNote</appv:ApplicationId>
+      </appv:COM>
+    </appv:Extension>
+    <appv:Extension Category="AppV.COM">
+      <appv:COM>
+        <appv:x86>
+          <appv:Interfaces>
+            <appv:Interface>
+              <appv:InterfaceId>{8E8304B8-CBD1-44F8-B0E8-89C625B2002E}</appv:InterfaceId>
+              <appv:Description>Window</appv:Description>
+              <appv:ProxyStubClassId>{00020424-0000-0000-C000-000000000046}</appv:ProxyStubClassId>
+              <appv:TypeLibrary>
+                <appv:TypeLibraryId>{0EA692EE-BB50-4E3C-AEF0-356D91732725}</appv:TypeLibraryId>
+                <appv:VersionNumber>1.1</appv:VersionNumber>
+              </appv:TypeLibrary>
+            </appv:Interface>
+          </appv:Interfaces>
+        </appv:x86>
+        <appv:TypeLibraries>
+          <appv:TypeLibrary>
+            <appv:TypeLibraryId>{0EA692EE-BB50-4E3C-AEF0-356D91732725}</appv:TypeLibraryId>
+            <appv:Versions>
+              <appv:Version>
+                <appv:VersionNumber>1.1</appv:VersionNumber>
+                <appv:Name>Microsoft OneNote 15.0 Type Library</appv:Name>
+                <appv:Flags>0</appv:Flags>
+                <appv:HelpDirectory />
+                <appv:Libraries>
+                  <appv:Library>
+                    <appv:Index>0</appv:Index>
+                    <appv:Win32>[{AppVPackageRoot}]\Office16\ONENOTE.EXE\3</appv:Win32>
+                  </appv:Library>
+                </appv:Libraries>
+              </appv:Version>
+            </appv:Versions>
+          </appv:TypeLibrary>
+        </appv:TypeLibraries>
+        <appv:ApplicationId>OneNote</appv:ApplicationId>
+      </appv:COM>
+    </appv:Extension>
+    <appv:Extension Category="AppV.COM">
+      <appv:COM>
+        <appv:x86>
+          <appv:Interfaces>
+            <appv:Interface>
+              <appv:InterfaceId>{C9590FA7-2132-47FB-9A78-AF0BF19AF4E6}</appv:InterfaceId>
+              <appv:Description>IOneNoteAddIn</appv:Description>
+              <appv:ProxyStubClassId>{00020424-0000-0000-C000-000000000046}</appv:ProxyStubClassId>
+              <appv:TypeLibrary>
+                <appv:TypeLibraryId>{F2A7EE29-8BF6-4A6D-83F1-098E366C709C}</appv:TypeLibraryId>
+                <appv:VersionNumber>1.0</appv:VersionNumber>
+              </appv:TypeLibrary>
+            </appv:Interface>
+          </appv:Interfaces>
+        </appv:x86>
+        <appv:ApplicationId>OneNote</appv:ApplicationId>
+      </appv:COM>
+    </appv:Extension>
+    <appv:Extension Category="AppV.COM">
+      <appv:COM>
+        <appv:x86>
+          <appv:Interfaces>
+            <appv:Interface>
+              <appv:InterfaceId>{E2E1511D-502D-4BD0-8B3A-8A89A05CDCAE}</appv:InterfaceId>
+              <appv:Description>IOneNoteEvents</appv:Description>
+              <appv:ProxyStubClassId>{00020424-0000-0000-C000-000000000046}</appv:ProxyStubClassId>
+              <appv:TypeLibrary>
+                <appv:TypeLibraryId>{0EA692EE-BB50-4E3C-AEF0-356D91732725}</appv:TypeLibraryId>
+                <appv:VersionNumber>1.1</appv:VersionNumber>
+              </appv:TypeLibrary>
+            </appv:Interface>
+          </appv:Interfaces>
+        </appv:x86>
+        <appv:TypeLibraries>
+          <appv:TypeLibrary>
+            <appv:TypeLibraryId>{0EA692EE-BB50-4E3C-AEF0-356D91732725}</appv:TypeLibraryId>
+            <appv:Versions>
+              <appv:Version>
+                <appv:VersionNumber>1.1</appv:VersionNumber>
+                <appv:Name>Microsoft OneNote 15.0 Type Library</appv:Name>
+                <appv:Flags>0</appv:Flags>
+                <appv:HelpDirectory />
+                <appv:Libraries>
+                  <appv:Library>
+                    <appv:Index>0</appv:Index>
+                    <appv:Win32>[{AppVPackageRoot}]\Office16\ONENOTE.EXE\3</appv:Win32>
+                  </appv:Library>
+                </appv:Libraries>
+              </appv:Version>
+            </appv:Versions>
+          </appv:TypeLibrary>
+        </appv:TypeLibraries>
+        <appv:ApplicationId>OneNote</appv:ApplicationId>
+      </appv:COM>
+    </appv:Extension>
+    <appv:Extension Category="AppV.URLProtocol">
+      <appv:URLProtocol>
+        <appv:Name>OneIndex16</appv:Name>
+        <appv:ApplicationURLProtocol>
+          <appv:Description>Microsoft OneNote Protocol Handler for Windows Desktop Search</appv:Description>
+          <appv:ShellFolder>{0875DCB6-C686-4243-9432-ADCCF0B9F2D7}</appv:ShellFolder>
+        </appv:ApplicationURLProtocol>
+      </appv:URLProtocol>
+    </appv:Extension>
+    <appv:Extension Category="AppV.URLProtocol">
+      <appv:URLProtocol>
+        <appv:Name>OneNote</appv:Name>
+        <appv:ApplicationURLProtocol>
+          <appv:Description>URL:OneNote Protocol</appv:Description>
+          <appv:FriendlyTypeName>@[{ProgramFilesCommonX64}]\Microsoft Shared\Office16\oregres.dll,-144</appv:FriendlyTypeName>
+          <appv:UseOriginalUrlEncoding>1</appv:UseOriginalUrlEncoding>
+          <appv:ShellCommands>
+            <appv:ShellCommand>
+              <appv:ApplicationId>OneNote</appv:ApplicationId>
+              <appv:Name>Open</appv:Name>
+              <appv:CommandLine>"[{AppVPackageRoot}]\Office16\ONENOTE.EXE" /hyperlink "%1"</appv:CommandLine>
+            </appv:ShellCommand>
+          </appv:ShellCommands>
+        </appv:ApplicationURLProtocol>
+      </appv:URLProtocol>
+    </appv:Extension>
+    <appv:Extension Category="AppV.URLProtocol">
+      <appv:URLProtocol>
+        <appv:Name>onenote-cmd</appv:Name>
+        <appv:ApplicationURLProtocol>
+          <appv:Description>URL:OneNote Protocol</appv:Description>
+          <appv:FriendlyTypeName>@[{ProgramFilesCommonX64}]\Microsoft Shared\Office16\oregres.dll,-144</appv:FriendlyTypeName>
+          <appv:UseOriginalUrlEncoding>1</appv:UseOriginalUrlEncoding>
+          <appv:ShellCommands>
+            <appv:ShellCommand>
+              <appv:ApplicationId>OneNote</appv:ApplicationId>
+              <appv:Name>Open</appv:Name>
+              <appv:CommandLine>"[{AppVPackageRoot}]\Office16\ONENOTE.EXE" "%1"</appv:CommandLine>
+            </appv:ShellCommand>
+          </appv:ShellCommands>
+        </appv:ApplicationURLProtocol>
+      </appv:URLProtocol>
+    </appv:Extension>
+    <appv:Extension Category="AppV.URLProtocol">
+      <appv:URLProtocol>
+        <appv:Name>onenote-cmd.URL.16</appv:Name>
+        <appv:ApplicationURLProtocol>
+          <appv:Description>URL:OneNote Protocol</appv:Description>
+          <appv:ShellCommands>
+            <appv:ShellCommand>
+              <appv:ApplicationId>OneNote</appv:ApplicationId>
+              <appv:Name>Open</appv:Name>
+              <appv:CommandLine>"[{AppVPackageRoot}]\Office16\ONENOTE.EXE" "%1"</appv:CommandLine>
+            </appv:ShellCommand>
+          </appv:ShellCommands>
+        </appv:ApplicationURLProtocol>
+      </appv:URLProtocol>
+    </appv:Extension>
+    <appv:Extension Category="AppV.URLProtocol">
+      <appv:URLProtocol>
+        <appv:Name>OneNote.URL.16</appv:Name>
+        <appv:ApplicationURLProtocol>
+          <appv:Description>URL:OneNote Protocol</appv:Description>
+          <appv:ShellCommands>
+            <appv:ShellCommand>
+              <appv:ApplicationId>OneNote</appv:ApplicationId>
+              <appv:Name>Open</appv:Name>
+              <appv:CommandLine>"[{AppVPackageRoot}]\Office16\ONENOTE.EXE" /hyperlink "%1"</appv:CommandLine>
+            </appv:ShellCommand>
+          </appv:ShellCommands>
+        </appv:ApplicationURLProtocol>
+      </appv:URLProtocol>
+    </appv:Extension>
+    <appv:Extension Category="AppV.URLProtocol">
+      <appv:URLProtocol>
+        <appv:Name>OneNoteDesktop</appv:Name>
+        <appv:ApplicationURLProtocol>
+          <appv:Description>URL:OneNote Protocol</appv:Description>
+          <appv:FriendlyTypeName>@[{ProgramFilesCommonX64}]\Microsoft Shared\Office16\oregres.dll,-144</appv:FriendlyTypeName>
+          <appv:UseOriginalUrlEncoding>1</appv:UseOriginalUrlEncoding>
+          <appv:ShellCommands>
+            <appv:ShellCommand>
+              <appv:ApplicationId>OneNote</appv:ApplicationId>
+              <appv:Name>Open</appv:Name>
+              <appv:CommandLine>"[{AppVPackageRoot}]\Office16\ONENOTE.EXE" /hyperlink "%1"</appv:CommandLine>
+            </appv:ShellCommand>
+          </appv:ShellCommands>
+        </appv:ApplicationURLProtocol>
+      </appv:URLProtocol>
+    </appv:Extension>
+    <appv:Extension Category="AppV.URLProtocol">
+      <appv:URLProtocol>
+        <appv:Name>OneNoteDesktop.URL.16</appv:Name>
+        <appv:ApplicationURLProtocol>
+          <appv:Description>URL:OneNote Protocol</appv:Description>
+          <appv:ShellCommands>
+            <appv:ShellCommand>
+              <appv:ApplicationId>OneNote</appv:ApplicationId>
+              <appv:Name>Open</appv:Name>
+              <appv:CommandLine>"[{AppVPackageRoot}]\Office16\ONENOTE.EXE" /hyperlink "%1"</appv:CommandLine>
+            </appv:ShellCommand>
+          </appv:ShellCommands>
+        </appv:ApplicationURLProtocol>
+      </appv:URLProtocol>
+    </appv:Extension>
+    <appv:Extension Category="AppV.ApplicationCapabilities">
+      <appv:ApplicationCapabilities>
+        <appv:Reference>
+          <appv:Name>OneNote.Application.16</appv:Name>
+          <appv:Path>Software\Clients\Note Taking\Microsoft OneNote\16.0\Capabilities</appv:Path>
+        </appv:Reference>
+        <appv:CapabilityGroup>
+          <appv:Capabilities>
+            <appv:Name>@[{ProgramFilesCommonX64}]\Microsoft Shared\Office16\oregres.dll,-201</appv:Name>
+            <appv:Description>@[{ProgramFilesCommonX64}]\Microsoft Shared\Office16\oregres.dll,-302</appv:Description>
+            <appv:FileAssociationList>
+              <appv:FileAssociation Extension=".one" ProgID="OneNote.Section.1" />
+              <appv:FileAssociation Extension=".onetoc" ProgID="OneNote.TableOfContents" />
+              <appv:FileAssociation Extension=".onetoc2" ProgID="OneNote.TableOfContents.12" />
+              <appv:FileAssociation Extension=".onepkg" ProgID="OneNote.Package" />
+            </appv:FileAssociationList>
+            <appv:URLAssociationList>
+              <appv:URLAssociation Scheme="onenote" ProgID="OneNote.URL.16" />
+              <appv:URLAssociation Scheme="onenotedesktop" ProgID="OneNoteDesktop.URL.16" />
+              <appv:URLAssociation Scheme="onenote-cmd" ProgID="onenote-cmd.URL.16" />
+            </appv:URLAssociationList>
+          </appv:Capabilities>
+          <appv:CapabilitiesWow64>
+            <appv:Name>@[{ProgramFilesCommonX64}]\Microsoft Shared\Office16\oregres.dll,-201</appv:Name>
+            <appv:Description>@[{ProgramFilesCommonX64}]\Microsoft Shared\Office16\oregres.dll,-302</appv:Description>
+            <appv:FileAssociationList>
+              <appv:FileAssociation Extension=".one" ProgID="OneNote.Section.1" />
+              <appv:FileAssociation Extension=".onetoc" ProgID="OneNote.TableOfContents" />
+              <appv:FileAssociation Extension=".onetoc2" ProgID="OneNote.TableOfContents.12" />
+              <appv:FileAssociation Extension=".onepkg" ProgID="OneNote.Package" />
+            </appv:FileAssociationList>
+            <appv:URLAssociationList>
+              <appv:URLAssociation Scheme="onenote" ProgID="OneNote.URL.16" />
+              <appv:URLAssociation Scheme="onenotedesktop" ProgID="OneNoteDesktop.URL.16" />
+              <appv:URLAssociation Scheme="onenote-cmd" ProgID="onenote-cmd.URL.16" />
+            </appv:URLAssociationList>
+          </appv:CapabilitiesWow64>
+        </appv:CapabilityGroup>
+        <appv:ApplicationId>OneNote</appv:ApplicationId>
+      </appv:ApplicationCapabilities>
+    </appv:Extension>
+    <appv:Extension Category="AppV.Fonts">
+      <appv:Fonts>
+        <appv:Font Path="[{Fonts}]\private\BRADHITC.TTF" DelayLoad="true" />
+        <appv:Font Path="[{Fonts}]\private\FREESCPT.TTF" DelayLoad="true" />
+        <appv:Font Path="[{Fonts}]\private\FRSCRIPT.TTF" DelayLoad="true" />
+        <appv:Font Path="[{Fonts}]\private\JUICE___.TTF" DelayLoad="true" />
+        <appv:Font Path="[{Fonts}]\private\ITCKRIST.TTF" DelayLoad="true" />
+        <appv:Font Path="[{Fonts}]\private\LHANDW.TTF" DelayLoad="true" />
+        <appv:Font Path="[{Fonts}]\private\MISTRAL.TTF" DelayLoad="true" />
+        <appv:Font Path="[{Fonts}]\private\PAPYRUS.TTF" DelayLoad="true" />
+        <appv:Font Path="[{Fonts}]\private\PRISTINA.TTF" DelayLoad="true" />
+        <appv:Font Path="[{Fonts}]\private\BSSYM7.TTF" DelayLoad="true" />
+        <appv:Font Path="[{Fonts}]\private\REFSAN.TTF" DelayLoad="true" />
+        <appv:Font Path="[{Fonts}]\private\REFSPCL.TTF" DelayLoad="true" />
+        <appv:Font Path="[{Fonts}]\private\TEMPSITC.TTF" DelayLoad="true" />
+      </appv:Fonts>
+    </appv:Extension>
+    <appv:Extension Category="AppV.Shortcut">
+      <appv:Shortcut>
+        <appv:File>[{Common Programs}]\OneNote.lnk</appv:File>
+        <appv:Target>[{AppVPackageRoot}]\Office16\ONENOTE.EXE</appv:Target>
+        <appv:Icon>[{Windows}]\Installer\{90160000-000F-0000-0000-0000000FF1CE}\joticon.exe</appv:Icon>
+        <appv:Arguments />
+        <appv:WorkingDirectory />
+        <appv:AppUserModelId>Microsoft.Office.ONENOTE.EXE.15</appv:AppUserModelId>
+        <appv:AppUserModelExcludeFromShowInNewInstall>true</appv:AppUserModelExcludeFromShowInNewInstall>
+        <appv:Description>!(loc.WW_ON_MainShortcut_tip)</appv:Description>
+        <appv:ShowCommand>1</appv:ShowCommand>
+        <appv:ApplicationId>OneNote</appv:ApplicationId>
+      </appv:Shortcut>
+    </appv:Extension>
+    <appv:Extension Category="AppV.Shortcut">
+      <appv:Shortcut>
+        <appv:File>[{Common Programs}]\Sticky Notes (new).lnk</appv:File>
+        <appv:Target>[{AppVPackageRoot}]\Office16\ONENOTE.EXE</appv:Target>
+        <appv:Icon>[{Windows}]\Installer\{90160000-000F-0000-0000-0000000FF1CE}\joticon.exe,5</appv:Icon>
+        <appv:Arguments>/memoryWindow start</appv:Arguments>
+        <appv:WorkingDirectory />
+        <appv:AppUserModelId>Microsoft.Office.OneNote.MemoryPreview</appv:AppUserModelId>
+        <appv:AppUserModelExcludeFromShowInNewInstall>false</appv:AppUserModelExcludeFromShowInNewInstall>
+        <appv:Description>!(loc.WW_ON_MainShortcut_tip)</appv:Description>
+        <appv:ShowCommand>1</appv:ShowCommand>
+        <appv:ApplicationId>OneNote</appv:ApplicationId>
+      </appv:Shortcut>
+    </appv:Extension>
+  </appv:Extensions>
+  <Applications xmlns="http://schemas.microsoft.com/appv/2010/manifest">
+    <Application Id="OneNote" Origin="Application">
+      <Target>OneNote</Target>
+      <VisualElements>
+        <Name>OneNote</Name>
+      </VisualElements>
+    </Application>
+  </Applications>
+  <appv:UsedKnownFolders>
+    <appv:KnownFolder ID="{FD228CB7-AE11-4AE3-864C-16F3910AB8FE}" />
+    <appv:KnownFolder ID="{F7F1ED05-9F6D-47A2-AAAE-29D317C6F066}" />
+    <appv:KnownFolder ID="{F38BF404-1D43-42F2-9305-67DE0B28FC23}" />
+    <appv:KnownFolder ID="{0139D44E-6AFE-49F2-8690-3DAFCAE6FFB8}" />
+  </appv:UsedKnownFolders>
+</Package>
